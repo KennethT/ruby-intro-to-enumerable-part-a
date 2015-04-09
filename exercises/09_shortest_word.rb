@@ -1,4 +1,14 @@
-
+def shortest_word(words)
+  shortlength = Float::INFINITY
+  shortword = nil
+  words.each do |word|
+    if word.length < shortlength
+      shortword = word
+      shortlength = word.length
+    end
+  end
+  shortword
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'
