@@ -1,4 +1,13 @@
 def product(numbers)
+  if numbers == []
+    nil
+  else
+  result = 1
+    numbers.each do |number|
+    result = result * number
+    end
+  result
+  end
 end
 
 # ------ code above this line ------
