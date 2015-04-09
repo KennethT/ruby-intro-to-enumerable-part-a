@@ -1,3 +1,12 @@
+def any_empty?(words)
+  emptyarr = false
+  words.each do |word|
+    if word == "" || word == nil
+      emptyarr = true
+    end
+  end
+  emptyarr
+end
 
 # ------ code above this line ------
 
