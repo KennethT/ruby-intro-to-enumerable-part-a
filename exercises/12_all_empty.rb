@@ -1,3 +1,13 @@
+def all_empty?(words)
+  tf = true
+  words.each do |word|
+    if word != ""
+      tf = false
+    end
+  end
+  tf
+end
+
 
 # ------ code above this line ------
 
